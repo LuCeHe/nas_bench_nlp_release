@@ -1,11 +1,11 @@
 import torch
 import torch.nn
 
-from embed_regularize import embedded_dropout
-from locked_dropout import LockedDropout
-from weight_drop import WeightDrop, ParameterListWeightDrop
+from nas_bench_nlp_release.embed_regularize import embedded_dropout
+from nas_bench_nlp_release.locked_dropout import LockedDropout
+from nas_bench_nlp_release.weight_drop import WeightDrop, ParameterListWeightDrop
 
-from custom_rnn import CustomRNN
+from nas_bench_nlp_release.custom_rnn import CustomRNN
 
 import json
 import numpy as np

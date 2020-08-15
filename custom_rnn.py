@@ -2,7 +2,7 @@ import torch
 import torch.nn
 import networkx as nx
 
-from multilinear import MultiLinear
+from nas_bench_nlp_release.multilinear import MultiLinear
 import math
 
 class CustomRNNCell(torch.nn.Module):
